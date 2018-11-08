@@ -13,3 +13,9 @@
  *= require_tree .
  *= require_self
  */
+ .card-link{
+	color: white;
+}
+.card-link:hover{
+	color: white;
+}

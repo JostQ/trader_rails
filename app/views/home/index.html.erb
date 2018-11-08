@@ -1,14 +1,28 @@
-<%= form_for :crypto, url: {action: 'index'}, method: :post do |f| %>
-
-<%= f.select :id, @cryptos.collect { |p| [ p.name, p.id ] }, {} , {multiple: true, size: 10}%>
-
-<%= f.submit %>
-
-<%end %>
 
 
-<% if @crypto_selected %>
-  <% @crypto_selected.each do |crypto| %>
-    <p><%=crypto[:name] %> .. <%= crypto[:value] %></p>
-  <%end%>
-<%end %>
+<div class="container">
+	<div class="row">
+	
+	<%= form_for :crypto, url: {action: 'index'}, method: :post, class: "p-3 shadow border rounded col-6" do |f| %>
+		<div class="form-group col-6">
+		<h2>Choose : </h2>
+		<%= f.select :id, @cryptos.collect { |p| [ p.name, p.id ] }, {} , {multiple: true, size: 10}%>
+
+		<%= f.submit "Display Crypto Values", class: "btn btn-dark col-15"  %>
+		</div>
+	<%end %>
+
+		<div class="col-6">
+			<table class="table table-dark">
+			<% if @crypto_selected %>
+			<tr><th>Crypto</th><th>Value</th></tr>
+			  <% @crypto_selected.each do |crypto| %>
+			    	<tr>
+			    	<td><%=crypto[:name] %> </td><td> <%= crypto[:value] %></td>
+			    </tr>
+			  <%end%>
+			<%end %>
+			</table>
+		</div>
+	</div>
+</div>
