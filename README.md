@@ -4,17 +4,17 @@ The hacking project semaine six
 
 L'exercice consistait à créer un site et sa base de données avec ruby on rails en reprenant le code d'un exercice précédent qui scrapait les noms et les valeurs de cryptomonnaies.<br/>
 
-Travail réalisé par [@Drensis](https://thehackingproject.slack.com/messages/DD6V0K26N) et [@Yannis](https://thehackingproject.slack.com/messages/DD14VBZ0U)
+Travail réalisé par [@Dremsis](https://thehackingproject.slack.com/messages/DD6V0K26N) et [@Yannis](https://thehackingproject.slack.com/messages/DD14VBZ0U)
 
 ## Ce qu'il y a sur ce repo :
 
-Le projet RAILS en entier. Et tout ce dont mon gentil correcteur aura besoin pour m'évaluer demain. 
+Le projet RAILS en entier. Et tout ce dont mon gentil correcteur aura besoin pour m'évaluer demain.
 
 ## Ce qu'il n'y a pas sur ce repo :
 
-Un produit finit fonctionnel qui a réllement une utilité. Ou d'autres fonctinnalités fancy utiles pour des cryptà-traders.
+Un produit finit fonctionnel qui a réllement une utilité. Ou d'autres fonctinnalités fancy utiles pour des crypto-traders.
 
-## Nous avons utilisé : 
+## Nous avons utilisé :
 Ruby 2.5.1<br/>
 Rails 5.2.1<br/>
 Nokogiri<br/>
@@ -38,7 +38,7 @@ On a aussi mis en ligne le projet sur [Heroku](http://trader-rails-thp.herokuapp
 
 <br/><br/><br/>
 
-Puisque tu es arrivé jusque là, voilà en petit cadeau, un animal tout mignon : 
+Puisque tu es arrivé jusque là, voilà en petit cadeau, un animal tout mignon :
 
 
 ![kdo axolotl](https://cdn140.picsart.com/262009799015212.png "kdo axolotl")
