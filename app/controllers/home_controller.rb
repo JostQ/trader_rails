@@ -1,7 +1,7 @@
 class HomeController < ApplicationController
   def index
 
-    #TraderOfTheDeath.new.perform
+    TraderOfTheDeath.new.perform
 
     @cryptos = Crypto.all.sort
 
