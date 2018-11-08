@@ -34,7 +34,7 @@ Pour initialiser la base de données : <br/>
 Puis il faut lancer le serveur : <br/>
 `rails server`<br/>
 Pour accéder au site : [http://localhost:3000/](http://localhost:3000/)<br/>
-On a aussi mis en ligne le projet sur [Heroku](https://facebook-thp.herokuapp.com/).
+On a aussi mis en ligne le projet sur [Heroku](http://trader-rails-thp.herokuapp.com/).
 
 <br/><br/><br/>
 
