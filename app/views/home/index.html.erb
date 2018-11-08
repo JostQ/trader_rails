@@ -1,0 +1,14 @@
+<%= form_for :crypto, url: {action: 'index'}, method: :post do |f| %>
+
+<%= f.select :id, @cryptos.collect { |p| [ p.name, p.id ] }, {} , {multiple: true, size: 10}%>
+
+<%= f.submit %>
+
+<%end %>
+
+
+<% if @crypto_selected %>
+  <% @crypto_selected.each do |crypto| %>
+    <p><%=crypto[:name] %> .. <%= crypto[:value] %></p>
+  <%end%>
+<%end %>
